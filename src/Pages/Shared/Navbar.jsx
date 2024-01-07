@@ -56,7 +56,7 @@ const Navbar = () => {
             </nav>
             <div className="drawer drawer-end md:hidden">
                 <input id="sideNav" type="checkbox" className="drawer-toggle" />
-                <div className="drawer-side z-10 mt-[80px]">
+                <div className="drawer-side z-10 mt-[4rem]">
                     <label htmlFor="sideNav" aria-label="close sidebar" className="drawer-overlay"></label>
                     <ul className="menu p-4 w-[70%] sm:w-80 min-h-full text-base-content bg-red-300">
                         {

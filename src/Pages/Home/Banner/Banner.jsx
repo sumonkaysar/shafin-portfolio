@@ -7,7 +7,7 @@ const Banner = () => {
     return (
         <div className="hero min-h-screen bg-gradient-to-r from-[#ff7070] to-[#ff75da]">
             <div className="hero-content text-center text-neutral-content">
-                <div className="max-w-md text-white">
+                <div className="text-white" data-aos="fade-up">
                     <h4 className="text-lg">Hello There!</h4>
                     <BannerText />
                     <a href="#about"

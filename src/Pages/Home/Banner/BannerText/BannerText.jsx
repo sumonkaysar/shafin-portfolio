@@ -7,7 +7,7 @@ const BannerText = () => {
     ]
 
     return (
-        <div className="mb-2">
+        <div className="mb-2 w-full">
             <div className='text-lg md:text-3xl flex justify-center font-semibold my-4'>
                 <span>I'm&nbsp;</span>
                 <Typewriter

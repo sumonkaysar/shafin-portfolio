@@ -5,7 +5,7 @@ const SingleTool = ({tool}) => {
     const {coverImg, title, } = tool;
 
     return (
-        <div className="card card-compact bg-gradient-to-br from-amber-200 to-red-300 shadow-2xl">
+        <div className="card card-compact bg-gradient-to-br from-amber-200 to-red-300 shadow-2xl" data-aos="zoom-in">
             <figure className="h-48"><img className="w-full h-full object-cover" src={coverImg} alt={title} /></figure>
             <div className="card-body">
                 <h2 className="card-title justify-center">{title}</h2>

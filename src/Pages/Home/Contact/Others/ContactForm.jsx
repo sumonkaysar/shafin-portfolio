@@ -1,7 +1,7 @@
 const ContactForm = () => {
 
     return (
-        <form>
+        <form data-aos="flip-right">
             <div className="flex gap-3 mb-4">
                 <input type="text" placeholder="First Name"
                     className="input input-bordered input-secondary w-full" />

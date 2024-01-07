@@ -14,7 +14,7 @@ const ContactInfo = () => {
                 </div>
                 <div>
                     <p className="text-gray-500">Address:</p>
-                    <h4 className="font-semibold sm:text-xl">Chuadanga, Bangladesh</h4>
+                    <h4 className="font-semibold sm:text-xl">Dhaka, Bangladesh</h4>
                 </div>
             </div>
             <div className="flex items-center gap-3 mb-6">
@@ -26,8 +26,8 @@ const ContactInfo = () => {
                 </div>
                 <div>
                     <p className="text-gray-500">Phone:</p>
-                    <Link to="tel:+8801700000000"
-                        className="font-semibold sm:text-xl break-all">+8801700000000</Link>
+                    <Link to="tel:+8801721917848"
+                        className="font-semibold sm:text-xl break-all">+8801721917848</Link>
                 </div>
             </div>
             <div className="flex items-center gap-3">
@@ -39,8 +39,8 @@ const ContactInfo = () => {
                 </div>
                 <div>
                     <p className="text-gray-500">Mail:</p>
-                    <Link to="mailto:shafin@email.com"
-                        className="font-semibold sm:text-xl break-all">shafin@email.com</Link>
+                    <Link to="mailto:shafin.bsmrstu051@gmail.com"
+                        className="font-semibold sm:text-xl break-all">shafin.bsmrstu051@gmail.com</Link>
                 </div>
             </div>
         </div>
