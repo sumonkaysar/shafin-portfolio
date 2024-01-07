@@ -10,30 +10,37 @@ import SingleTool from "./Others/SingleTool";
 const Tools = () => {
     const tools = [
         {
+            id: 1,
             title: "SQL",
             coverImg: sqlImg,
         },
         {
+            id: 2,
             title: "Excel",
             coverImg: excelImg,
         },
         {
+            id: 3,
             title: "Tableau",
             coverImg: tableauImg,
         },
         {
+            id: 4,
             title: "Python",
             coverImg: pythonImg,
         },
         {
+            id: 5,
             title: "Looker Studio",
             coverImg: lookerStudioImg,
         },
         {
+            id: 6,
             title: "Power BI",
             coverImg: powerbiImg,
         },
         {
+            id: 7,
             title: "Google Data Studio",
             coverImg: googleDataStudioImg,
         },
