@@ -1,10 +1,14 @@
 import ContactForm from "./Others/ContactForm";
 import ContactSocial from "./Others/ContactSocial";
 import ContactInfo from "./Others/ContactInfo";
+import { useContext } from "react";
+import { ScrollingContext } from "../../../Contexts/ScrollingContext";
 
 const Contact = () => {
+    const { contactRef } = useContext(ScrollingContext);
+
     return (
-        <div id="contact" className="bg-red-100 py-20">
+        <div ref={contactRef} id="contact" className="bg-red-100 py-20">
             <div className="w-11/12 max-w-[1440px] mx-auto">
                 <h4 className="font-semibold mb-10 underline text-center">Contact</h4>
                 <div className="grid lg:grid-cols-2 gap-10 items-center lg:place-items-center">

@@ -1,7 +1,7 @@
 const Projects = () => {
 
     return (
-        <div>
+        <div className="h-[2000px]">
             Projects
         </div>
     )

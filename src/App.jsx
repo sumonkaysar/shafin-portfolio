@@ -4,10 +4,9 @@ import AOS from "aos";
 import { useEffect } from "react";
 
 function App() {
+  
   useEffect(() => {
-    AOS.init({
-      // Global settings and customization options here
-    });
+    AOS.init({});
   }, []);
 
   return (

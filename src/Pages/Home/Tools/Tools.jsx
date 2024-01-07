@@ -6,8 +6,12 @@ import lookerStudioImg from "../../../assets/images/tools/looker-studio.jpg";
 import powerbiImg from "../../../assets/images/tools/powerbi.png";
 import googleDataStudioImg from "../../../assets/images/tools/google-data-studio.jpeg";
 import SingleTool from "./Others/SingleTool";
+import { ScrollingContext } from "../../../Contexts/ScrollingContext";
+import { useContext } from "react";
 
 const Tools = () => {
+    const { toolsRef } = useContext(ScrollingContext);
+
     const tools = [
         {
             id: 1,
@@ -47,7 +51,7 @@ const Tools = () => {
     ]
 
     return (
-        <div id="tools" className="bg-red-200 py-20">
+        <div ref={toolsRef} id="tools" className="bg-red-200 py-20">
             <div className="w-11/12 max-w-[1440px] mx-auto">
                 <h4 className="font-semibold mb-10 underline text-center">Tools</h4>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-10">
