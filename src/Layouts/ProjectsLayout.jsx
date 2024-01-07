@@ -1,19 +1,17 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../Pages/Shared/Navbar";
-import Footer from "../Pages/Shared/Footer";
-import MenuItems from "../Pages/Shared/MenuItems";
+import ProjectsMenuItems from "../Pages/Shared/ProjectsMenuItems";
 
-const Root = () => {
+const ProjectsLayout = () => {
 
     return (
         <>
             <Navbar>
-                <MenuItems />
+                <ProjectsMenuItems />
             </Navbar>
             <Outlet />
-            <Footer />
         </>
     )
 };
 
-export default Root
+export default ProjectsLayout
